@@ -1,0 +1,16 @@
+.banner{
+    background-image: url(../css/last\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4px;
+   
+}
+
+@keyframes fade-inout{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.fade-in-fade-out{
+    animation: fade-inout 1s infinite alternate;
+}
